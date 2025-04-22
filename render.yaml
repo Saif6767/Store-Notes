@@ -6,5 +6,5 @@ services:
     branch: main
     buildCommand: dotnet build
     startCommand: dotnet run
-    rootDir: .
+    rootDir: MyApiProject 
     autoDeploy: true
