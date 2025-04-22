@@ -9,15 +9,4 @@ services:
     startCommand: dotnet run
     rootDir: MyApiProject  # Isme MyApiProject folder ka path daalo
     autoDeploy: true
-=======
-services:
-  - type: web
-    name: store-notes-api
-    env: dotnet
-    plan: free
-    branch: main
-    buildCommand: dotnet build
-    startCommand: dotnet run
-    rootDir: MyApiProject 
-    autoDeploy: true
 >>>>>>> 6eec5019b8200a345fac7e9a245e9cdfa35a9672
