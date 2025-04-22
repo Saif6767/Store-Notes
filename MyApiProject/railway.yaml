@@ -1,0 +1,7 @@
+services:
+  - name: store-notes-api
+    rootDir: MyApiProject
+    buildCommand: dotnet build
+    startCommand: dotnet run
+    env: dotnet
+    autoDeploy: true
