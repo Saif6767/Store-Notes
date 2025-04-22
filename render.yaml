@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: store-notes-api
+    env: dotnet
+    plan: free
+    branch: main
+    buildCommand: dotnet build
+    startCommand: dotnet run
+    rootDir: .
+    autoDeploy: true
